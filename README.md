@@ -1,7 +1,7 @@
 # Final project
 It's too much content, so I'm adding all the assignments after feedback to this repository. [The first week's repository is accessed from here.](https://github.com/clementine0507/Studio-Project/blob/main/README.md)
 
-URL:
+URL:https://clementine0507.github.io/Final-Studio-Project-/
 
 ## After feedback-New idea and work
 I realized that the interactivity in my current code is still somewhat limited. Reflecting on Sol LeWitt’s work, particularly his Wall Drawing #260, I was inspired by the way LeWitt allowed other artists to create based on his instructions, resulting in an artwork that is highly interactive. Building on this idea, I want to incorporate lines as the foundation of my code and invite users to engage in the creation process. However, unlike LeWitt, I want users to interact with the artwork not through their hands but through a unique medium.
