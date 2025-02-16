@@ -2,6 +2,7 @@
 It's too much content, so I'm adding all the assignments after feedback to this repository. [The first week's repository is accessed from here.](https://github.com/clementine0507/Studio-Project/blob/main/README.md)
 
 URL:
+
 ## After feedback-New idea and work
 After receiving feedback, I realized that the interactivity in my current code is still somewhat limited. Reflecting on Sol LeWitt’s work, particularly his Wall Drawing #260, I was inspired by the way LeWitt allowed other artists to create based on his instructions, resulting in an artwork that is highly interactive. Building on this idea, I want to incorporate lines as the foundation of my code and invite users to engage in the creation process. However, unlike LeWitt, I want users to interact with the artwork not through their hands but through a unique medium.
 ![image](https://github.com/user-attachments/assets/29176b9b-4e12-49ac-b0c1-f019d3ae261f)
@@ -16,12 +17,13 @@ Some inspirations about sound:
 
 - To me, sound is a powerful, almost magical force—it transcends distance and connects us. Whether it’s a song or a simple conversation, sound lets us exchange information, emotions, and ideas. Through language, we communicate, and through tone, we convey our feelings. Ultimately, sound forms the connection between us and the world, and between us and each other. In my work, I want to use my voice to let sound become the source of creation. The code will capture the traces left by my voice, not just as a formal representation of sound, but as the marks of its presence and influence in space. Each line drawn by sound will be a reminder of its “visit,” with a unique character and life of its own.
 
-鉴于一些技术上的需求，我仍然需要chatgpt的帮助，于是我先将我想要的效果告诉他，并让他给出我一些写代码的思路和格式：
+I still needed chatgpt's help due to some technical requirements, so I went ahead and told him what I wanted to achieve and asked him to give me some ideas and formats for writing the code:
 ![fdeadfd8eab6adae818990d882256de](https://github.com/user-attachments/assets/b9e50bd9-e837-4a31-abc9-de740e021d25)
 ![275332ebcde0527e701ffba16f05998](https://github.com/user-attachments/assets/972f2748-6feb-4d4d-b3a2-714666ea65fa)
 
-根据chatgpt给我整理的思路，我开始一遍一遍尝试代码，以下是成功版的代码以及思路：
-在绘制游戏开始之前，我希望有一个带有引导性的文字方便用户理解，再点击之后才会开始捕捉声音。
+Based on the ideas that chatgpt put together for me, I started trying the code over and over again, and here is the successful version of the code along with the ideas:
+
+Before drawing the start of the game, I wanted to have a text with a guide for the user to easily understand, and then click on it before it starts capturing the sound.
 ```Javascript
   text('Sound is your paintbrush.', width / 2, height / 2); 
 
