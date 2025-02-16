@@ -4,7 +4,7 @@ It's too much content, so I'm adding all the assignments after feedback to this 
 URL:
 
 ## After feedback-New idea and work
-After receiving feedback, I realized that the interactivity in my current code is still somewhat limited. Reflecting on Sol LeWitt’s work, particularly his Wall Drawing #260, I was inspired by the way LeWitt allowed other artists to create based on his instructions, resulting in an artwork that is highly interactive. Building on this idea, I want to incorporate lines as the foundation of my code and invite users to engage in the creation process. However, unlike LeWitt, I want users to interact with the artwork not through their hands but through a unique medium.
+I realized that the interactivity in my current code is still somewhat limited. Reflecting on Sol LeWitt’s work, particularly his Wall Drawing #260, I was inspired by the way LeWitt allowed other artists to create based on his instructions, resulting in an artwork that is highly interactive. Building on this idea, I want to incorporate lines as the foundation of my code and invite users to engage in the creation process. However, unlike LeWitt, I want users to interact with the artwork not through their hands but through a unique medium.
 ![image](https://github.com/user-attachments/assets/29176b9b-4e12-49ac-b0c1-f019d3ae261f)
 
 In my previous assignment, during Workshop 9, I learned how to access the user’s camera to create interactive content. Given that p5.js can also access the user’s microphone, it led me to wonder—can sound levels control the shape of a line, turning it into a dynamic drawing tool? I’ve played games before where sound controls gameplay elements, which inspired me to experiment with using the volume of the user’s voice to manipulate the lines and shapes on the canvas. This is the direction I plan to explore.
@@ -117,3 +117,9 @@ function drawLine() {
 ```
 What the code looks like when it starts running：
 ![image](https://github.com/user-attachments/assets/fd340085-fec5-4edb-bcb2-eb015c382b0e)
+
+Some reflections after using chatgpt learning:
+
+During the process of learning to code, even though I hadn't mastered many technical terms, with the guidance of ChatGPT, I learned how to use the microphone as an audio input source, capture real-time audio signals through the `p5.AudioIn()` function, and request the user's microphone permission. I also experimented with controlling the speed of line movement based on the intensity of sound, where the louder the sound, the faster the line moves. By using mathematical functions like `random()`, `cos()`, and `sin()`, I was able to make the lines move randomly across the canvas, thus closely linking the drawing process with sound changes.
+
+This led me to reflect on the relationship between sound and artistic creation. Normally, art is expressed visually, but in this piece, sound becomes a medium interacting with lines and colors. It's as if sound is an invisible force that can affect our emotions and cognition through different frequencies and intensities (though this is a somewhat rigid interpretation of how I translated it into code). I’ve experienced the magic and charm of sound. Every tiny fluctuation in sound can leave a unique trace on the canvas, creating an artistic expression that is unlike any other.
