@@ -198,6 +198,7 @@ function clearCanvas() {
   }
   ```
 #### My final code:
+```Javascript
 let mic;
 let isGameStarted = false;
 let soundLevel = 0;
@@ -339,6 +340,12 @@ function clearCanvas() {
   linePosition = createVector(width / 2, height / 2);
   previousPosition = linePosition.copy();
 }
+```
 ![image](https://github.com/user-attachments/assets/14322904-c081-4c15-9c0f-e67ccad760cd)
 
 ##### Conclusion
+In this course, I learned a lot and deeply felt the widespread application of code. In fact, because I often play games, I have a general understanding that many technology-related things are inseparable from code. However, in this assignment, just creating a small interactive game took up a lot of my energy, which has filled me with respect and admiration for programmers.
+
+On the other hand, in my assignment, I chose sound as the core theme for interaction. By the time I finished the project, I had moved beyond the concept of "drawing with sound." I believe that art should not be confined to painting but should have a broader scope. Art is a creative expression—it can be unique, novel, or even subversive to tradition. At the same time, I also believe that a work without critique cannot be considered a true work of art. If my work is controversial, I would consider it a success.
+
+Sound can be a medium for creation, and technology can be a tool for art. Art and technology have never been opposing forces. From the perspective techniques of the Renaissance to modern digital art, technological development has always driven artistic innovation. I hope to concretize this experience through code, allowing users to actively participate in it.
