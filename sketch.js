@@ -16,7 +16,7 @@ function setup() {
   textAlign(CENTER, CENTER);
   fill(0);
 
-  text('Sound is your paintbrush.', width / 2, height / 2);
+  text('Trying to control the sound！', width / 2, height / 2);
 
   mic = new p5.AudioIn();
   
